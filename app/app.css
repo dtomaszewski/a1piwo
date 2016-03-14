@@ -1,0 +1,26 @@
+.VoteBox {
+  border: 1px solid #f1f1f1;
+  padding-bottom: 10px;
+  position: relative;
+  margin-bottom: 10px; }
+
+.VoteBox:hover {
+  box-shadow: 1px 1px 4px 0 #8f8f8f; }
+
+.VoteBox-img {
+  height: 200px;
+  margin-bottom: 10px;
+  text-align: center; }
+
+.VoteBox-img img {
+  max-width: 100%;
+  max-height: 200px; }
+
+.VoteBox-score {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  border-radius: 1em;
+  font-size: 1em; }
+
+/*# sourceMappingURL=app.css.map */

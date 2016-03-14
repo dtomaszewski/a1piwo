@@ -1,0 +1,11 @@
+<div class="VoteBox clearfix">
+    <span class="label label-warning VoteBox-score">{{ item.votes }}</span>
+
+    <h3 class="col-xs-12">{{ item.name }}</h3>
+    <div class="VoteBox-img col-xs-12">
+        <img data-ng-src="{{item.photo}}" />
+    </div>
+
+    <vote-button like="true">Dobre!</vote-button>
+    <vote-button>Paskudne!</vote-button>
+</div>

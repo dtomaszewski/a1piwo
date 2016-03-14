@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Beer app</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="app.css">
+</head>
+<body data-ng-app="topbeer.app">
+
+<h1>Beer app</h1>
+
+<div data-ng-controller="MainCtrl as vm">
+    <vote-list items="vm.beers" like="vm.likeBeer" unlike="vm.unlikeBeer"></vote-list>
+</div>
+
+<!--VENDOR-->
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+<script src="https://cdn.firebase.com/js/client/2.3.0/firebase.js"></script>
+<script src="https://cdn.firebase.com/libs/angularfire/1.1.3/angularfire.min.js"></script>
+
+<!--LOCAL-->
+<script src="common/services/beer/beerSvc.js"></script>
+<script src="components/vote-list/voteList.js"></script>
+<script src="components/vote-box/voteBox.js"></script>
+<script src="components/vote-button/voteButton.js"></script>
+<!--<script src="components/beer/beerDirective.js"></script>-->
+<!--<script src="components/beer/beerSvc.js"></script>-->
+<script src="app.js"></script>
+</body>
+</html>
