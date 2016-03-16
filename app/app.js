@@ -6,11 +6,9 @@ angular.module('topbeer.app', ['beer', 'vote'])
 
         vm.likeBeer = function(beer) {
             Beer.like(beer);
-            vm.beers.$save(beer);
         };
 
         vm.unlikeBeer = function(beer) {
             Beer.unlike(beer);
-            vm.beers.$save(beer);
         };
     });

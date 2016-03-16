@@ -2,12 +2,12 @@
   "WARKA": {
     "name": "Warka",
     "photo": "http://warka.com.pl/uploads/tx_templavoila/warka_01.jpg",
-    "votes": 3
+    "votes": 1
   },
   "TATRA": {
     "name": "Tatra",
     "photo": "http://www.beerpubs.pl/grafiki/powiekszenia/IMG_0921.png",
-    "votes": 2
+    "votes": 1
   },
   "HOBGOBLIN": {
     "name": "Hobgoblin",
@@ -37,6 +37,26 @@
   "SPECJAL": {
     "name": "Specjal",
     "photo": "http://www.big.elblag.pl/files/1944350476/butelka_specjal_1.jpg",
+    "votes": 1
+  },
+  "ZUBR": {
+    "name": "Żubr",
+    "photo": "http://hala-handlowa.pl/sites/default/files/produkty/zubr-butelka-05.jpg",
+    "votes": 1
+  },
+  "HARNAS": {
+    "name": "Harnaś",
+    "photo": "http://www.bierstudio.com/site/studio/blog/wp-content/uploads/2015/12/harnas-piwo-jasne-pelne-500ml-Full.jpg",
+    "votes": 1
+  },
+  "ARGUS": {
+    "name": "Argus",
+    "photo": "http://img.sadistic.pl/pics/ab6fe3a0348b.jpg",
+    "votes": 1
+  },
+  "VIP": {
+    "name": "V.I.P",
+    "photo": "http://ocen-piwo.pl/upload/vip.png",
     "votes": 1
   }
 }
