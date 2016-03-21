@@ -8,6 +8,7 @@ simple Angular 1 with Firebase demo app
 * clone repo
 ```sh
 > git clone https://github.com/dtomaszewski/a1piwo
+```
 
 * install dependencies and run the server
 ```sh
