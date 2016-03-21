@@ -16,8 +16,8 @@ simple Angular 1 with Firebase demo app
 > npm start
 ```
 
-* app will run on [app]
+* choose Your favorite beer [beer]
 
-[app]: <http://localhost:8080/app/app.html/>
+[beer]: <http://localhost:8080/app/app.html>
 [node]: <https://nodejs.org/en/>
 [npm]: <https://www.npmjs.com/>
