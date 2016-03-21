@@ -1,0 +1,22 @@
+{
+  "name": "a1piwo",
+  "version": "0.0.1",
+  "description": "Simple Angular 1 app with Firebase connection",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dtomaszewski/a1piwo.git"
+  },
+  "author": "dtomaszewski.js@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dtomaszewski/a1piwo/issues"
+  },
+  "homepage": "https://github.com/dtomaszewski/a1piwo#readme",
+  "devDependencies": {
+    "http-server": "^0.9.0"
+  }
+}
